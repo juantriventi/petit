@@ -110,6 +110,19 @@ body {
 #notre-menu{
   background-color: (var(--bs-primary-rgb));
 }
+.nav-link{
+  color: #b6afaf !important;
+}
+.nav-link:hover{
+  color: var(--bs-nav-tabs-link-active-color) !important;
+}
+.navbar-brand{
+  color: #b6afaf !important;
+}
+.navbar-brand:hover{
+  color: var(--bs-nav-tabs-link-active-color) !important;
+}
+
 
 hr {
   margin: 1rem 0;
