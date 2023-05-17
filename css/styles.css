@@ -10856,8 +10856,9 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .page-section {
@@ -11018,12 +11019,13 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+/*responsive de portfolio para monitores*/
 @media (min-width: 1450px) {
   #portfolio{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-   max-width: 80%;
+    max-width: 80%;
   }
 }
