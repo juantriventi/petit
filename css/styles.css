@@ -108,7 +108,7 @@ body {
 }
 
 #notre-menu{
-  background-color: (var(--bs-primary-rgb));
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%);
 }
 .nav-link{
   color: #b6afaf !important;
