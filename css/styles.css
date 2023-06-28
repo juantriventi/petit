@@ -104,17 +104,23 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.row-contact{
+.row-contact {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   margin: auto;
-  width: 80vw;
 }
-.col-contact{
-  text-align: center;
-  width: 180px;
+
+.col-contact {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   font-size: 14px;
+  margin: 30px;
+  width: 20vw;
+}
+.col-contact a{
+  color:#000;
 }
 
 #icono{
